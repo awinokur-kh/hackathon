@@ -18,7 +18,7 @@ def main(req: func.HttpRequest, doc: func.DocumentList) -> func.HttpResponse:
         {
             "id": rating['id'],
             "timestamp": rating['timestamp'],
-            "userid": rating['userid'],
+            "userId": rating['userid'],
             "productId": rating['productId'],
             "locationName":rating['locationName'],
             "rating":rating['rating'],
